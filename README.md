@@ -1,5 +1,5 @@
 
-
+ ```mermaid
 graph TD;
     Início[Início] --> Recebimento[Recebimento de requisição por e-mail]
     Recebimento --> Avaliação[Avaliação da requisição]
@@ -20,3 +20,5 @@ graph TD;
     Autorização --> Remanejamento_mobiliário[Remanejamento do mobiliário]
     Remanejamento -->|Não| Fim[Fim]
     Fim -->|Fim| 
+
+```
